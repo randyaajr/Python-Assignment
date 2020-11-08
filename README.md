@@ -73,5 +73,8 @@ loop as shown below (Hint: you can user the same while loop counter since it sta
    * Remember that we used two functions to convert string into a number
 
 4. After the user finish inserting all their value into our list “course_marks”, use “for loop” to print the items
-     of course_marks list:
+     of course_marks list
 
+### Part 2:
+1. You will find the average for all the courses:
+   
