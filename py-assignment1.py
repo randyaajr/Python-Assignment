@@ -8,5 +8,4 @@ while count < num_of_courses:
     course_marks.append(int(input(f'Enter your marks for course {str(count)}:')))
     count += 1
 
-    if num_of_courses == " ":
-       break
+    
