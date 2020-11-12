@@ -12,7 +12,7 @@
    * If elif condition with logical operators
 
 
-## Assignment Instructions:
+## Assignment Instructions/Requirements:
 Create a new Python and save it as .py file as “py-assignment1.py”
 like py-assignment1.py
 1. You will use print() to print the output in the terminal window
@@ -45,5 +45,8 @@ like py-assignment1.py
      of course_marks list
 
 ### Part 2:
-1. You will find the average for all the courses:
+- [x] You will find the average for all the courses:
+   * First you need to find the total of all the courses marks inside the list (for sure) using any kind of loop
+       you want  
+      * The math formula for average ➔ The total of the numeric values / How many numeric values
    
