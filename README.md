@@ -49,4 +49,17 @@ like py-assignment1.py
    * First you need to find the total of all the courses marks inside the list (for sure) using any kind of loop
        you want  
       * The math formula for average ➔ The total of the numeric values / How many numeric values
+   * Then you can divide the total of the courses by the number of courses and assign the result into a new
+       variable named “average”
+      * In our Py assignment ➔ The total of all the marks inside our list / The length of our list
+   * Print the following sentence: “Your average for your 5 courses is: 88.0”
+
+### Part 3
+- [x] Output (print) the grade, so you will use “if condition” to check the average value as explained below:
+   * If average >= 90 and average <=100 ➔ display: “Your grade is A+”
+   * Else If average >= 80 and average <=89 ➔ display: “Your grade is B”
+   * Else If average >= 70 and average <=79 ➔ display: “Your grade is C”
+   * Else If average >= 60 and average <=69 ➔ display: “Your grade is D”
+   * Else If average <60 [or just use else] ➔ display: “Your grade is F”
+
    
