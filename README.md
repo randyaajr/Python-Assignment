@@ -62,4 +62,7 @@ like py-assignment1.py
    * Else If average >= 60 and average <=69 ➔ display: “Your grade is D”
    * Else If average <60 [or just use else] ➔ display: “Your grade is F”
 
+
+Happy coding!
+![Coding..](https://media.giphy.com/media/PiQejEf31116URju4V/source.gif)
    
