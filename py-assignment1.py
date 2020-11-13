@@ -8,7 +8,8 @@ course_marks = []
 count = 1
 while (count <= num_of_courses):
     course_marks.append(
-        int(input(f'Enter your marks for course {str(count)}:')))
+        int(input(f'Enter your marks for course {count}: ')))
+        #int(input(f'Enter your marks for course {str(count}:'))) ** Removed str as it is not needed
     count += 1
 
 # The for loop here then prints (to the terminal) the inputed values.
