@@ -1,15 +1,15 @@
-# Variable declared whick asks for user input and stores the value entered.
+# First variable declared, which asks for user to input the #(5 max) of courses completed and stores the value entered.
 num_of_courses = int(input('How many courses did you finish?'))
 
-# This empty variable store the values entered by the user.
+# This empty variable stores the values entered by the user(the variable is part of the program below).
 course_marks = []
 
-# This while loop iterates through the inputed amount of courses completed.
+# This while loop iterates through the inputed amount of courses completed by the user.
 count = 1
 while (count <= num_of_courses):
     course_marks.append(
         int(input(f'Enter your marks for course {count}: ')))
-        #int(input(f'Enter your marks for course {str(count}:'))) ** Removed str as it is not needed
+        #int(input(f'Enter your marks for course {str(count}:'))) ** Removed 'str' as it is not needed.. 'f' function will auto convert to string
     count += 1
 
 # The for loop here then prints (to the terminal) the inputed values.
@@ -18,8 +18,8 @@ for item in course_marks:
 
 # Here is where the values are added. 
 continuer = 0
-for mark in course_marks:
-    continuer = continuer + mark
+for grade in course_marks:
+    continuer = continuer + grade
 
 # Now continuer is devided with the number of courses entered.
 average = round(continuer / num_of_courses, 1)
